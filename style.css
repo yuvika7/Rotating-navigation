@@ -132,6 +132,16 @@ nav ul li+li+li {
     line-height: 1.5;
 }
 
+ @media (max-width: 768px) {
+            header {
+                font-size: 1.5em;
+            }
+
+            main {
+                font-size: 1.2em;
+            }
+        }
+
 .content img {
     max-width: 25%;
 }
